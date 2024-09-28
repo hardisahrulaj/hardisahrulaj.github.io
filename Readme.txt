@@ -1,6 +1,5 @@
-Thanks for downloading this template!
-
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+👋 Hi, Welcome to my portfolio web by Github,
+I'm Hardi Sahrul A.J 
+I'm a Quality Assurance Engineer and Data Analyst with a background in Information Systems.
+I have experience in web and mobile application testing, system design, and data management. 
+I'm also skilled in graphic design, with expertise in creating visual assets for various projects.
