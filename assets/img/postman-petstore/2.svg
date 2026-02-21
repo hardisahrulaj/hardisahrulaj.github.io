@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="5" fill="#ff6c37"/>
+  <text x="400" y="48" font-family="Arial" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">Request Chaining Flow</text>
+  <text x="400" y="68" font-family="Arial" font-size="12" fill="#aaaacc" text-anchor="middle">Environment Variable Chaining via pm.environment.set()</text>
+
+  <!-- Pet folder -->
+  <rect x="50" y="85" width="210" height="200" rx="8" fill="#ff6c37" fill-opacity="0.08" stroke="#ff6c37" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="155" y="108" font-family="Arial" font-size="12" fill="#ff6c37" text-anchor="middle" font-weight="bold">📁 Pet</text>
+  <text x="70" y="130" font-family="monospace" font-size="10" fill="#7ee787">TC001</text><text x="115" y="130" font-family="monospace" font-size="10" fill="#8b949e"> POST /pet</text>
+  <text x="70" y="150" font-family="monospace" font-size="10" fill="#a5d6ff">TC002</text><text x="115" y="150" font-family="monospace" font-size="10" fill="#8b949e"> GET  /pet/{{petId}}</text>
+  <text x="70" y="170" font-family="monospace" font-size="10" fill="#a5d6ff">TC003</text><text x="115" y="170" font-family="monospace" font-size="10" fill="#8b949e"> PUT  /pet</text>
+  <text x="70" y="190" font-family="monospace" font-size="10" fill="#a5d6ff">TC004</text><text x="115" y="190" font-family="monospace" font-size="10" fill="#8b949e"> GET  /findByStatus</text>
+  <text x="70" y="210" font-family="monospace" font-size="10" fill="#a5d6ff">TC005</text><text x="115" y="210" font-family="monospace" font-size="10" fill="#8b949e"> DEL  /pet/{{petId}}</text>
+  <text x="70" y="230" font-family="monospace" font-size="10" fill="#ef9a9a">TC006</text><text x="115" y="230" font-family="monospace" font-size="10" fill="#8b949e"> GET  /9999999999</text>
+  <text x="70" y="250" font-family="monospace" font-size="10" fill="#ef9a9a">TC007</text><text x="115" y="250" font-family="monospace" font-size="10" fill="#8b949e"> GET  /abc123</text>
+  <text x="70" y="270" font-family="monospace" font-size="10" fill="#ef9a9a">TC008</text><text x="115" y="270" font-family="monospace" font-size="10" fill="#8b949e"> POST (empty body)</text>
+
+  <!-- Store folder -->
+  <rect x="295" y="85" width="210" height="160" rx="8" fill="#2196f3" fill-opacity="0.08" stroke="#2196f3" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="400" y="108" font-family="Arial" font-size="12" fill="#64b5f6" text-anchor="middle" font-weight="bold">📁 Store</text>
+  <text x="315" y="130" font-family="monospace" font-size="10" fill="#7ee787">TC010</text><text x="360" y="130" font-family="monospace" font-size="10" fill="#8b949e"> POST /store/order</text>
+  <text x="315" y="150" font-family="monospace" font-size="10" fill="#a5d6ff">TC011</text><text x="360" y="150" font-family="monospace" font-size="10" fill="#8b949e"> GET  /order/{{orderId}}</text>
+  <text x="315" y="170" font-family="monospace" font-size="10" fill="#a5d6ff">TC012</text><text x="360" y="170" font-family="monospace" font-size="10" fill="#8b949e"> GET  /inventory</text>
+  <text x="315" y="190" font-family="monospace" font-size="10" fill="#ef9a9a">TC013</text><text x="360" y="190" font-family="monospace" font-size="10" fill="#8b949e"> GET  /order/9999999</text>
+
+  <!-- User folder -->
+  <rect x="540" y="85" width="210" height="130" rx="8" fill="#9c27b0" fill-opacity="0.08" stroke="#9c27b0" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="645" y="108" font-family="Arial" font-size="12" fill="#ce93d8" text-anchor="middle" font-weight="bold">📁 User</text>
+  <text x="560" y="130" font-family="monospace" font-size="10" fill="#7ee787">TC014</text><text x="605" y="130" font-family="monospace" font-size="10" fill="#8b949e"> POST /user</text>
+  <text x="560" y="150" font-family="monospace" font-size="10" fill="#a5d6ff">TC015</text><text x="605" y="150" font-family="monospace" font-size="10" fill="#8b949e"> GET  /{{username}}</text>
+  <text x="560" y="170" font-family="monospace" font-size="10" fill="#ef9a9a">TC016</text><text x="605" y="170" font-family="monospace" font-size="10" fill="#8b949e"> GET  /usertidakada</text>
+
+  <!-- Env vars table -->
+  <rect x="50" y="310" width="700" height="130" rx="8" fill="#0d1117"/>
+  <rect x="50" y="310" width="700" height="28" rx="8" fill="#21262d"/>
+  <text x="400" y="329" font-family="Arial" font-size="11" fill="#8b949e" text-anchor="middle">Environment Variables</text>
+  <text x="120" y="358" font-family="monospace" font-size="11" fill="#79c0ff">baseUrl</text>
+  <text x="300" y="358" font-family="Arial" font-size="10" fill="#8b949e">petstore_environment.json</text>
+  <text x="580" y="358" font-family="Arial" font-size="10" fill="#8b949e">All requests</text>
+  <text x="120" y="378" font-family="monospace" font-size="11" fill="#ffa657">petId</text>
+  <text x="300" y="378" font-family="Arial" font-size="10" fill="#8b949e">TC001 pre-request + test</text>
+  <text x="580" y="378" font-family="Arial" font-size="10" fill="#8b949e">TC002, TC003, TC005</text>
+  <text x="120" y="398" font-family="monospace" font-size="11" fill="#ffa657">orderId</text>
+  <text x="300" y="398" font-family="Arial" font-size="10" fill="#8b949e">TC010 pre-request + test</text>
+  <text x="580" y="398" font-family="Arial" font-size="10" fill="#8b949e">TC011</text>
+  <text x="120" y="418" font-family="monospace" font-size="11" fill="#ffa657">username</text>
+  <text x="300" y="418" font-family="Arial" font-size="10" fill="#8b949e">TC014 pre-request</text>
+  <text x="580" y="418" font-family="Arial" font-size="10" fill="#8b949e">TC015</text>
+
+  <text x="400" y="470" font-family="Arial" font-size="11" fill="#555577" text-anchor="middle">hardisahrulaj.github.io · QA Portfolio</text>
+</svg>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Postman + Newman — Petstore API Automation</title>
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .tech-badge { display:inline-block; background:#ff6c37; color:#fff; font-size:.75rem; padding:3px 10px; border-radius:20px; margin:2px; }
+    .tc-table th { background:#ff6c37; color:#fff; font-size:.82rem; }
+    .tc-table td { font-size:.82rem; vertical-align:middle; }
+    .badge-pos { background:#198754; color:#fff; padding:2px 8px; border-radius:12px; font-size:.75rem; }
+    .badge-neg { background:#dc3545; color:#fff; padding:2px 8px; border-radius:12px; font-size:.75rem; }
+    .repo-tree { background:#1e1e1e; color:#d4d4d4; border-radius:8px; padding:16px 20px; font-family:'Courier New',monospace; font-size:.85rem; line-height:1.8; }
+    .repo-tree .c { color:#6a9955; }
+    .repo-tree .f { color:#ffa657; }
+    .repo-tree .k { color:#79c0ff; }
+    .chain-flow { background:#1e1e1e; color:#9cdcfe; border-radius:8px; padding:16px 20px; font-family:'Courier New',monospace; font-size:.8rem; line-height:1.9; overflow-x:auto; }
+    .chain-flow .folder { color:#ce9178; }
+    .chain-flow .c { color:#6a9955; }
+    .cmd-block { background:#1e1e1e; color:#7ee787; border-radius:6px; padding:10px 16px; font-family:'Courier New',monospace; font-size:.83rem; margin-bottom:8px; }
+    .section-divider { border:none; border-top:2px solid #ff6c37; margin:28px 0; opacity:.25; }
+  </style>
+</head>
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Hardi Sahrul A.J</h1>
+    </a>
+    <div class="social-links text-center">
+      <a href="http://linkedin.com/in/hardisahrulaj" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="current">Postman Petstore API Automation</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <!-- Slider -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {"loop":true,"speed":600,"autoplay":{"delay":5000},"slidesPerView":"auto","pagination":{"el":".swiper-pagination","type":"bullets","clickable":true}}
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><img src="assets/img/postman-petstore/1.svg" alt="Postman Petstore Overview"></div>
+                <div class="swiper-slide"><img src="assets/img/postman-petstore/2.svg" alt="Chaining Flow"></div>
+                <div class="swiper-slide"><img src="assets/img/postman-petstore/3.svg" alt="Newman CLI Reports"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Info sidebar -->
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Tester</strong>: Hardi Sahrul A.J</li>
+                <li><strong>Type</strong>: API Automation — Request Chaining</li>
+                <li><strong>Tool</strong>: Postman v11 / Newman v6</li>
+                <li><strong>Target</strong>: <a href="https://petstore.swagger.io/v2" target="_blank">petstore.swagger.io/v2</a></li>
+                <li><strong>Scenarios</strong>: 16 (9 positive + 7 negative)</li>
+                <li><strong>Report</strong>: HTML (htmlextra) + JSON</li>
+                <li><strong>Repository</strong>: <a href="https://github.com/hardisahrulaj/TakehomeQA/tree/main/Automation-Postman" target="_blank"><i class="bi bi-github"></i> Automation-Postman</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-info mt-3" data-aos="fade-up" data-aos-delay="250">
+              <h3>Tech Stack</h3>
+              <div class="pt-1">
+                <span class="tech-badge">Postman v11</span>
+                <span class="tech-badge">Newman v6</span>
+                <span class="tech-badge">htmlextra</span>
+                <span class="tech-badge">Chaining</span>
+                <span class="tech-badge">JSON Report</span>
+                <span class="tech-badge">CLI</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Full description -->
+        <div class="row mt-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-12">
+            <div class="portfolio-description">
+
+              <h2>Postman + Newman — Petstore API Automation (CASE02)</h2>
+              <p>Proyek API testing untuk <a href="https://petstore.swagger.io/v2" target="_blank">petstore.swagger.io/v2</a> menggunakan Postman Collection dengan request chaining via environment variables, randomized ID generation, dan CLI execution via Newman dengan HTML &amp; JSON reporting.</p>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-cpu me-2"></i>Requirements</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Komponen</th><th>Versi</th></tr></thead>
+                  <tbody>
+                    <tr><td>Node.js</td><td>v18.x atau lebih baru</td></tr>
+                    <tr><td>Newman</td><td>v6.x — <code>npm install -g newman</code></td></tr>
+                    <tr><td>newman-reporter-htmlextra</td><td>v1.22.x — <code>npm install -g newman-reporter-htmlextra</code></td></tr>
+                    <tr><td>Postman</td><td>v11.x (opsional, untuk import manual)</td></tr>
+                    <tr><td>OS</td><td>Windows / macOS / Linux</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-folder2-open me-2"></i>Project Structure</h4>
+              <div class="repo-tree">
+                <span class="f">Automation-Postman/</span><br>
+                <span class="k">├── </span>petstore_collection.json&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← Postman Collection (16 test case)</span><br>
+                <span class="k">├── </span>petstore_environment.json&nbsp;&nbsp;&nbsp;<span class="c">← baseUrl, petId, orderId, username</span><br>
+                <span class="k">├── </span><span class="f">reports/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← output Newman (dibuat otomatis)</span><br>
+                <span class="k">│   ├── </span>report.html<br>
+                <span class="k">│   └── </span>report.json<br>
+                <span class="k">└── </span>README.md
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-table me-2"></i>Test Case Design (16 Scenarios)</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>TC ID</th><th>Judul</th><th>Endpoint</th><th>Method</th><th>Type</th></tr></thead>
+                  <tbody>
+                    <tr><td>TC001</td><td>Add New Pet dengan data valid</td><td>/pet</td><td><span class="badge bg-success">POST</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC002</td><td>GET Pet by ID valid (chained TC001)</td><td>/pet/{petId}</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC003</td><td>Update Pet dengan data valid</td><td>/pet</td><td><span class="badge bg-warning text-dark">PUT</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC004</td><td>GET Pet by Status "available"</td><td>/pet/findByStatus</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC005</td><td>DELETE Pet by ID valid</td><td>/pet/{petId}</td><td><span class="badge bg-danger">DEL</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC006</td><td>GET Pet by ID tidak ada</td><td>/pet/9999999999</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-neg">Negative</span></td></tr>
+                    <tr><td>TC007</td><td>GET Pet by ID non-numerik</td><td>/pet/abc123</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-neg">Negative</span></td></tr>
+                    <tr><td>TC008</td><td>POST Add Pet dengan body kosong</td><td>/pet</td><td><span class="badge bg-success">POST</span></td><td><span class="badge-neg">Negative</span></td></tr>
+                    <tr><td>TC009</td><td>DELETE Pet by ID tidak ada</td><td>/pet/9999999999</td><td><span class="badge bg-danger">DEL</span></td><td><span class="badge-neg">Negative</span></td></tr>
+                    <tr><td>TC010</td><td>Place Order dengan data valid</td><td>/store/order</td><td><span class="badge bg-success">POST</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC011</td><td>GET Order by ID valid (chained TC010)</td><td>/store/order/{orderId}</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC012</td><td>GET Store Inventory</td><td>/store/inventory</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC013</td><td>GET Order by ID tidak ada</td><td>/store/order/9999999</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-neg">Negative</span></td></tr>
+                    <tr><td>TC014</td><td>Create User dengan data valid</td><td>/user</td><td><span class="badge bg-success">POST</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC015</td><td>GET User by Username valid (chained TC014)</td><td>/user/{username}</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-pos">Positive</span></td></tr>
+                    <tr><td>TC016</td><td>GET User by Username tidak ada</td><td>/user/usertidakada_xyz99999</td><td><span class="badge bg-primary">GET</span></td><td><span class="badge-neg">Negative</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="text-muted" style="font-size:.85rem;"><strong>Ringkasan:</strong> 9 Positif (TC001–TC005, TC010–TC012, TC014–TC015) · 7 Negatif (TC006–TC009, TC013, TC016) · Total 16 skenario</p>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-diagram-3 me-2"></i>Chaining Flow &amp; Environment Variables</h4>
+              <div class="chain-flow">
+                <span class="folder">Collection: Petstore API Test - CASE02</span><br>
+                │<br>
+                ├── 📁 Pet<br>
+                │&nbsp;&nbsp;&nbsp;├── TC001 POST /pet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← pre-request: set petId random</span><br>
+                │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">&nbsp;&nbsp;test: pm.environment.set('petId', json.id)</span><br>
+                │&nbsp;&nbsp;&nbsp;├── TC002 GET&nbsp; /pet/{{petId}}&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← baca petId dari TC001</span><br>
+                │&nbsp;&nbsp;&nbsp;├── TC003 PUT&nbsp; /pet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← baca petId dari TC001</span><br>
+                │&nbsp;&nbsp;&nbsp;├── TC004 GET&nbsp; /pet/findByStatus&nbsp;<span class="c">← independen</span><br>
+                │&nbsp;&nbsp;&nbsp;├── TC005 DEL&nbsp; /pet/{{petId}}&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← baca petId dari TC001</span><br>
+                │&nbsp;&nbsp;&nbsp;└── TC006–TC009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← negatif independen</span><br>
+                │<br>
+                ├── 📁 Store<br>
+                │&nbsp;&nbsp;&nbsp;├── TC010 POST /store/order&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← pre-request: set orderId random</span><br>
+                │&nbsp;&nbsp;&nbsp;├── TC011 GET&nbsp; /store/order/{{orderId}}&nbsp;<span class="c">← chained</span><br>
+                │&nbsp;&nbsp;&nbsp;├── TC012 GET&nbsp; /store/inventory&nbsp;&nbsp;<span class="c">← independen</span><br>
+                │&nbsp;&nbsp;&nbsp;└── TC013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← negatif independen</span><br>
+                │<br>
+                └── 📁 User<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;├── TC014 POST /user&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← pre-request: set username random</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;├── TC015 GET&nbsp; /user/{{username}}&nbsp;<span class="c">← chained</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;└── TC016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← negatif independen</span>
+              </div>
+
+              <div class="table-responsive mt-3">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Environment Variable</th><th>Di-set di</th><th>Digunakan di</th></tr></thead>
+                  <tbody>
+                    <tr><td><code>baseUrl</code></td><td>petstore_environment.json</td><td>Semua request</td></tr>
+                    <tr><td><code>petId</code></td><td>TC001 pre-request + test script</td><td>TC002, TC003, TC005</td></tr>
+                    <tr><td><code>orderId</code></td><td>TC010 pre-request + test script</td><td>TC011</td></tr>
+                    <tr><td><code>username</code></td><td>TC014 pre-request script</td><td>TC015</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-terminal me-2"></i>Cara Menjalankan Test (Newman CLI)</h4>
+              <p class="mb-1"><strong>1. Install dependencies:</strong></p>
+              <div class="cmd-block">npm install -g newman newman-reporter-htmlextra</div>
+              <p class="mb-1"><strong>2. Verifikasi:</strong></p>
+              <div class="cmd-block">newman --version</div>
+              <p class="mb-1"><strong>3. Generate semua report sekaligus (rekomendasi):</strong></p>
+              <div class="cmd-block">newman run petstore_collection.json -e petstore_environment.json -r cli,htmlextra,json --reporter-htmlextra-export reports/report.html --reporter-json-export reports/report.json</div>
+              <p class="text-muted" style="font-size:.85rem;">Buka <code>reports/report.html</code> di browser untuk melihat hasil lengkap.</p>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-info-circle me-2"></i>Catatan Teknis</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Topik</th><th>Keterangan</th></tr></thead>
+                  <tbody>
+                    <tr><td>Randomized ID</td><td><code>Math.random()</code> di pre-request script mencegah konflik ID di server publik</td></tr>
+                    <tr><td>Chaining</td><td><code>pm.environment.set()</code> di test script TC001/TC010/TC014, dibaca via <code>{{variable}}</code></td></tr>
+                    <tr><td>TC007</td><td>GET <code>/pet/abc123</code> → API mengembalikan 404 (path dianggap not found)</td></tr>
+                    <tr><td>TC008</td><td>POST body kosong → API mengembalikan 405 (Invalid Input)</td></tr>
+                    <tr><td>api_key</td><td>Header <code>api_key: special-key</code> wajib untuk DELETE <code>/pet/{id}</code></td></tr>
+                    <tr><td>Server publik</td><td><code>petstore.swagger.io</code> adalah shared server — data bisa diubah user lain kapan saja</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="mt-4">
+                <a href="https://github.com/hardisahrulaj/TakehomeQA/tree/main/Automation-Postman" target="_blank" class="btn btn-warning me-2" style="color:#1a1a2e;">
+                  <i class="bi bi-github me-1"></i> View on GitHub
+                </a>
+                <a href="katalon-ddt.html" class="btn btn-outline-danger me-2">
+                  <i class="bi bi-arrow-left me-1"></i> CASE01: Katalon DDT
+                </a>
+                <a href="index.html#portfolio" class="btn btn-outline-secondary">
+                  <i class="bi bi-grid me-1"></i> Back to Portfolio
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background"></footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

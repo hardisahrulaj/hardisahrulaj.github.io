@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Katalon Studio — UI Automation DDT</title>
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .tech-badge { display:inline-block; background:#e8392d; color:#fff; font-size:.75rem; padding:3px 10px; border-radius:20px; margin:2px; }
+    .tc-table th { background:#e8392d; color:#fff; font-size:.82rem; }
+    .tc-table td { font-size:.82rem; vertical-align:middle; }
+    .badge-pos { background:#198754; color:#fff; padding:2px 8px; border-radius:12px; font-size:.75rem; }
+    .badge-neg { background:#dc3545; color:#fff; padding:2px 8px; border-radius:12px; font-size:.75rem; }
+    .repo-tree { background:#1e1e1e; color:#d4d4d4; border-radius:8px; padding:16px 20px; font-family:'Courier New',monospace; font-size:.85rem; line-height:1.8; }
+    .repo-tree .c { color:#6a9955; }
+    .repo-tree .f { color:#ffa657; }
+    .repo-tree .k { color:#79c0ff; }
+    .section-divider { border:none; border-top:2px solid #e8392d; margin:28px 0; opacity:.25; }
+  </style>
+</head>
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Hardi Sahrul A.J</h1>
+    </a>
+    <div class="social-links text-center">
+      <a href="http://linkedin.com/in/hardisahrulaj" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="current">Katalon UI Automation DDT</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <!-- Slider -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {"loop":true,"speed":600,"autoplay":{"delay":5000},"slidesPerView":"auto","pagination":{"el":".swiper-pagination","type":"bullets","clickable":true}}
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><img src="assets/img/katalon-ddt/1.svg" alt="Katalon DDT Overview"></div>
+                <div class="swiper-slide"><img src="assets/img/katalon-ddt/2.svg" alt="Test Case Design"></div>
+                <div class="swiper-slide"><img src="assets/img/katalon-ddt/3.svg" alt="Project Structure"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Info sidebar -->
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Tester</strong>: Hardi Sahrul A.J</li>
+                <li><strong>Type</strong>: UI Automation — Data Driven Test</li>
+                <li><strong>Tool</strong>: Katalon Studio v9.6.0</li>
+                <li><strong>Target</strong>: <a href="https://demoqa.com/automation-practice-form" target="_blank">demoqa.com</a></li>
+                <li><strong>Scenarios</strong>: 9 (1 positive + 8 negative)</li>
+                <li><strong>Report</strong>: PDF + JUnit XML</li>
+                <li><strong>OS</strong>: Windows 11 (x64)</li>
+                <li><strong>Browser</strong>: Google Chrome</li>
+                <li><strong>Repository</strong>: <a href="https://github.com/hardisahrulaj/TakehomeQA/tree/main/Automation-Katalon" target="_blank"><i class="bi bi-github"></i> Automation-Katalon</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-info mt-3" data-aos="fade-up" data-aos-delay="250">
+              <h3>Tech Stack</h3>
+              <div class="pt-1">
+                <span class="tech-badge">Katalon Studio</span>
+                <span class="tech-badge">DDT</span>
+                <span class="tech-badge">JUnit XML</span>
+                <span class="tech-badge">PDF Report</span>
+                <span class="tech-badge">CSV Data</span>
+                <span class="tech-badge">Chrome</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Full description -->
+        <div class="row mt-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-12">
+            <div class="portfolio-description">
+
+              <h2>Katalon Studio — UI Automation with Data Driven Test (DDT)</h2>
+              <p>Proyek automation testing untuk <a href="https://demoqa.com/automation-practice-form" target="_blank">demoqa.com/automation-practice-form</a> menggunakan Katalon Studio dengan metode Data Driven Test (DDT). Semua 9 skenario dijalankan otomatis dari satu file CSV.</p>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-cpu me-2"></i>Requirements</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Komponen</th><th>Versi</th></tr></thead>
+                  <tbody>
+                    <tr><td>Katalon Studio</td><td>v9.6.0 (build 217)</td></tr>
+                    <tr><td>Java (OpenJDK Temurin)</td><td>17.0.14 (64-bit)</td></tr>
+                    <tr><td>Browser</td><td>Google Chrome (terbaru)</td></tr>
+                    <tr><td>OS</td><td>Windows 11 (x64)</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-folder2-open me-2"></i>Project Structure</h4>
+              <div class="repo-tree">
+                <span class="f">Automation-Katalon/</span><br>
+                <span class="k">├── </span><span class="f">Data Files/</span><br>
+                <span class="k">│   ├── </span>Student Data Scenario.csv&nbsp;&nbsp;<span class="c">← data DDT (9 baris test case)</span><br>
+                <span class="k">│   ├── </span>DDT Student Scenario.dat&nbsp;&nbsp;&nbsp;<span class="c">← konfigurasi data file Katalon</span><br>
+                <span class="k">│   └── </span>student_photo.jpg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← file foto untuk upload</span><br>
+                <span class="k">├── </span><span class="f">Scripts/</span><br>
+                <span class="k">│   └── </span>TC_StudentForm_DDT/<br>
+                <span class="k">├── </span><span class="f">Test Cases/</span><br>
+                <span class="k">│   └── </span>TC_StudentForm_DDT.tc<br>
+                <span class="k">├── </span><span class="f">Test Suites/</span><br>
+                <span class="k">│   └── </span>StudentFormDDTSuite.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← suite untuk menjalankan DDT</span><br>
+                <span class="k">├── </span><span class="f">Reports/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← hasil report otomatis</span><br>
+                <span class="k">└── </span>Test Case Design - Student Form.xlsx
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-table me-2"></i>Test Case Design (9 Scenarios)</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>TC ID</th><th>Judul</th><th>Jenis</th></tr></thead>
+                  <tbody>
+                    <tr><td>TC001_ValidSubmit</td><td>Submit form dengan data lengkap &amp; valid</td><td><span class="badge-pos">Positif</span></td></tr>
+                    <tr><td>TC002_NoLastName</td><td>Submit tanpa Last Name</td><td><span class="badge-neg">Negatif</span></td></tr>
+                    <tr><td>TC003_NoFirstName</td><td>Submit tanpa First Name</td><td><span class="badge-neg">Negatif</span></td></tr>
+                    <tr><td>TC004_InvalidEmail</td><td>Submit dengan format email tidak valid</td><td><span class="badge-neg">Negatif</span></td></tr>
+                    <tr><td>TC005_NoGender</td><td>Submit tanpa memilih Gender</td><td><span class="badge-neg">Negatif</span></td></tr>
+                    <tr><td>TC006_NoMobile</td><td>Submit tanpa Mobile Number</td><td><span class="badge-neg">Negatif</span></td></tr>
+                    <tr><td>TC007_MaxlengthMobile</td><td>Verifikasi maxlength field Mobile = 10</td><td><span class="badge-neg">Negatif</span></td></tr>
+                    <tr><td>TC008_InvalidMobileAlpha</td><td>Submit dengan Mobile berisi huruf</td><td><span class="badge-neg">Negatif</span></td></tr>
+                    <tr><td>TC009_EmptyAllFields</td><td>Submit dengan semua field kosong</td><td><span class="badge-neg">Negatif</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="text-muted" style="font-size:.85rem;">Detail step, expected result, dan actual result tersedia di file <code>Test Case Design - Student Form.xlsx</code>.</p>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-play-circle me-2"></i>Cara Menjalankan Test</h4>
+              <ol>
+                <li>Buka <strong>Katalon Studio v9.6.0</strong></li>
+                <li>Pilih <strong>Open Project</strong> → arahkan ke folder <code>Automation-Katalon</code></li>
+                <li>Di panel <strong>Test Explorer</strong>, buka folder <strong>Test Suites</strong></li>
+                <li>Klik dua kali file <strong>StudentFormDDTSuite</strong></li>
+                <li>Pastikan checkbox <strong>Run</strong> pada <code>TC_StudentForm_DDT</code> sudah dicentang</li>
+                <li>Klik tanda panah (▼) di samping tombol <strong>Run</strong> → pilih <strong>Chrome</strong></li>
+                <li>Test berjalan otomatis untuk semua 9 baris data dari <code>Student Data Scenario.csv</code></li>
+              </ol>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-file-earmark-pdf me-2"></i>Cara Generate Report</h4>
+              <p><strong>Export PDF:</strong></p>
+              <ol>
+                <li>Klik tab <strong>Test Explorer</strong> (ikon file hijau)</li>
+                <li>Buka folder <strong>Reports</strong> → pilih folder <code>YYYYMMDD_HHMMSS</code> terbaru</li>
+                <li>Buka folder <strong>StudentFormDDTSuite</strong> → klik file timestamp</li>
+                <li>Klik tombol <strong>Export Report</strong> (kanan atas) → pilih format <strong>PDF</strong></li>
+              </ol>
+              <p><strong>Report XML (JUnit):</strong> File <code>JUnit_Report.xml</code> otomatis tersedia di:</p>
+              <div class="repo-tree" style="font-size:.8rem;">Reports/YYYYMMDD_HHMMSS/StudentFormDDTSuite/YYYYMMDD_HHMMSS/JUnit_Report.xml</div>
+
+              <div class="mt-4">
+                <a href="https://github.com/hardisahrulaj/TakehomeQA/tree/main/Automation-Katalon" target="_blank" class="btn btn-danger me-2">
+                  <i class="bi bi-github me-1"></i> View on GitHub
+                </a>
+                <a href="postman-petstore.html" class="btn btn-outline-warning me-2">
+                  <i class="bi bi-arrow-right me-1"></i> CASE02: Postman Petstore
+                </a>
+                <a href="index.html#portfolio" class="btn btn-outline-secondary">
+                  <i class="bi bi-arrow-left me-1"></i> Back to Portfolio
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background"></footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

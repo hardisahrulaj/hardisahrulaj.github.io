@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <!-- Top accent bar -->
+  <rect width="800" height="5" fill="#e8392d"/>
+  <!-- Katalon logo circle -->
+  <circle cx="400" cy="140" r="55" fill="#e8392d" opacity="0.15"/>
+  <circle cx="400" cy="140" r="42" fill="none" stroke="#e8392d" stroke-width="2.5"/>
+  <text x="400" y="132" font-family="Arial" font-size="13" fill="#e8392d" text-anchor="middle" font-weight="bold">KATALON</text>
+  <text x="400" y="152" font-family="Arial" font-size="11" fill="#e8392d" text-anchor="middle">STUDIO</text>
+  <!-- Title -->
+  <text x="400" y="225" font-family="Arial" font-size="22" fill="#ffffff" text-anchor="middle" font-weight="bold">UI Automation — DDT</text>
+  <text x="400" y="255" font-family="Arial" font-size="14" fill="#aaaacc" text-anchor="middle">Student Form Automation Practice</text>
+  <!-- Stats row -->
+  <rect x="100" y="290" width="160" height="70" rx="8" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="180" y="320" font-family="Arial" font-size="26" fill="#e8392d" text-anchor="middle" font-weight="bold">9</text>
+  <text x="180" y="345" font-family="Arial" font-size="11" fill="#aaaacc" text-anchor="middle">Test Scenarios</text>
+  <rect x="320" y="290" width="160" height="70" rx="8" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="400" y="320" font-family="Arial" font-size="26" fill="#4caf50" text-anchor="middle" font-weight="bold">1</text>
+  <text x="400" y="345" font-family="Arial" font-size="11" fill="#aaaacc" text-anchor="middle">Positive</text>
+  <rect x="540" y="290" width="160" height="70" rx="8" fill="#ffffff" fill-opacity="0.07"/>
+  <text x="620" y="320" font-family="Arial" font-size="26" fill="#f44336" text-anchor="middle" font-weight="bold">8</text>
+  <text x="620" y="345" font-family="Arial" font-size="11" fill="#aaaacc" text-anchor="middle">Negative</text>
+  <!-- Tags -->
+  <rect x="220" y="390" width="100" height="26" rx="13" fill="#e8392d" fill-opacity="0.2"/>
+  <text x="270" y="408" font-family="Arial" font-size="11" fill="#e8392d" text-anchor="middle">Katalon v9.6</text>
+  <rect x="335" y="390" width="60" height="26" rx="13" fill="#2196f3" fill-opacity="0.2"/>
+  <text x="365" y="408" font-family="Arial" font-size="11" fill="#64b5f6" text-anchor="middle">DDT</text>
+  <rect x="410" y="390" width="80" height="26" rx="13" fill="#4caf50" fill-opacity="0.2"/>
+  <text x="450" y="408" font-family="Arial" font-size="11" fill="#81c784" text-anchor="middle">JUnit XML</text>
+  <!-- Bottom label -->
+  <text x="400" y="470" font-family="Arial" font-size="11" fill="#555577" text-anchor="middle">hardisahrulaj.github.io · QA Portfolio</text>
+</svg>

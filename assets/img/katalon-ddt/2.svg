@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="5" fill="#e8392d"/>
+  <text x="400" y="55" font-family="Arial" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Test Case Design — Student Form</text>
+  <text x="400" y="78" font-family="Arial" font-size="12" fill="#aaaacc" text-anchor="middle">demoqa.com/automation-practice-form</text>
+  <!-- Table header -->
+  <rect x="60" y="95" width="680" height="32" rx="4" fill="#e8392d" fill-opacity="0.8"/>
+  <text x="130" y="116" font-family="Arial" font-size="11" fill="#fff" font-weight="bold">TC ID</text>
+  <text x="340" y="116" font-family="Arial" font-size="11" fill="#fff" font-weight="bold">Title</text>
+  <text x="680" y="116" font-family="Arial" font-size="11" fill="#fff" font-weight="bold" text-anchor="middle">Type</text>
+  <!-- Rows -->
+  <rect x="60" y="127" width="680" height="28" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="130" y="146" font-family="monospace" font-size="10" fill="#aaaacc">TC001_ValidSubmit</text>
+  <text x="340" y="146" font-family="Arial" font-size="10" fill="#ccccee">Submit form dengan data lengkap &amp; valid</text>
+  <rect x="645" y="132" width="60" height="18" rx="9" fill="#4caf50" fill-opacity="0.3"/>
+  <text x="675" y="145" font-family="Arial" font-size="10" fill="#81c784" text-anchor="middle">Positive</text>
+
+  <rect x="60" y="155" width="680" height="28" fill="#ffffff" fill-opacity="0.02"/>
+  <text x="130" y="174" font-family="monospace" font-size="10" fill="#aaaacc">TC002_NoLastName</text>
+  <text x="340" y="174" font-family="Arial" font-size="10" fill="#ccccee">Submit tanpa Last Name</text>
+  <rect x="645" y="160" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="173" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <rect x="60" y="183" width="680" height="28" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="130" y="202" font-family="monospace" font-size="10" fill="#aaaacc">TC003_NoFirstName</text>
+  <text x="340" y="202" font-family="Arial" font-size="10" fill="#ccccee">Submit tanpa First Name</text>
+  <rect x="645" y="188" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="201" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <rect x="60" y="211" width="680" height="28" fill="#ffffff" fill-opacity="0.02"/>
+  <text x="130" y="230" font-family="monospace" font-size="10" fill="#aaaacc">TC004_InvalidEmail</text>
+  <text x="340" y="230" font-family="Arial" font-size="10" fill="#ccccee">Submit dengan format email tidak valid</text>
+  <rect x="645" y="216" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="229" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <rect x="60" y="239" width="680" height="28" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="130" y="258" font-family="monospace" font-size="10" fill="#aaaacc">TC005_NoGender</text>
+  <text x="340" y="258" font-family="Arial" font-size="10" fill="#ccccee">Submit tanpa memilih Gender</text>
+  <rect x="645" y="244" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="257" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <rect x="60" y="267" width="680" height="28" fill="#ffffff" fill-opacity="0.02"/>
+  <text x="130" y="286" font-family="monospace" font-size="10" fill="#aaaacc">TC006_NoMobile</text>
+  <text x="340" y="286" font-family="Arial" font-size="10" fill="#ccccee">Submit tanpa Mobile Number</text>
+  <rect x="645" y="272" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="285" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <rect x="60" y="295" width="680" height="28" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="130" y="314" font-family="monospace" font-size="10" fill="#aaaacc">TC007_MaxlengthMobile</text>
+  <text x="340" y="314" font-family="Arial" font-size="10" fill="#ccccee">Verifikasi maxlength field Mobile = 10</text>
+  <rect x="645" y="300" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="313" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <rect x="60" y="323" width="680" height="28" fill="#ffffff" fill-opacity="0.02"/>
+  <text x="130" y="342" font-family="monospace" font-size="10" fill="#aaaacc">TC008_InvalidMobileAlpha</text>
+  <text x="340" y="342" font-family="Arial" font-size="10" fill="#ccccee">Submit dengan Mobile berisi huruf</text>
+  <rect x="645" y="328" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="341" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <rect x="60" y="351" width="680" height="28" fill="#ffffff" fill-opacity="0.04"/>
+  <text x="130" y="370" font-family="monospace" font-size="10" fill="#aaaacc">TC009_EmptyAllFields</text>
+  <text x="340" y="370" font-family="Arial" font-size="10" fill="#ccccee">Submit dengan semua field kosong</text>
+  <rect x="645" y="356" width="60" height="18" rx="9" fill="#f44336" fill-opacity="0.3"/>
+  <text x="675" y="369" font-family="Arial" font-size="10" fill="#ef9a9a" text-anchor="middle">Negative</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="400" width="680" height="2" fill="#e8392d" fill-opacity="0.3"/>
+  <text x="400" y="430" font-family="Arial" font-size="12" fill="#aaaacc" text-anchor="middle">9 Scenarios · 1 Positive · 8 Negative · Data Driven Test</text>
+  <text x="400" y="470" font-family="Arial" font-size="11" fill="#555577" text-anchor="middle">hardisahrulaj.github.io · QA Portfolio</text>
+</svg>
