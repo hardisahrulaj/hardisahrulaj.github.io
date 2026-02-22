@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Katalon Studio — Petstore API Automation</title>
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .tech-badge { display:inline-block; background:#e8392d; color:#fff; font-size:.75rem; padding:3px 10px; border-radius:20px; margin:2px; }
+    .tc-table th { background:#e8392d; color:#fff; font-size:.82rem; }
+    .tc-table td { font-size:.82rem; vertical-align:middle; }
+    .badge-pos { background:#198754; color:#fff; padding:2px 8px; border-radius:12px; font-size:.75rem; }
+    .badge-neg { background:#dc3545; color:#fff; padding:2px 8px; border-radius:12px; font-size:.75rem; }
+    .repo-tree { background:#1e1e1e; color:#d4d4d4; border-radius:8px; padding:16px 20px; font-family:'Courier New',monospace; font-size:.85rem; line-height:1.8; }
+    .repo-tree .c { color:#6a9955; }
+    .repo-tree .f { color:#ffa657; }
+    .repo-tree .k { color:#79c0ff; }
+    .cmd-block { background:#1e1e1e; color:#7ee787; border-radius:6px; padding:10px 16px; font-family:'Courier New',monospace; font-size:.83rem; margin-bottom:8px; }
+    .section-divider { border:none; border-top:2px solid #e8392d; margin:28px 0; opacity:.25; }
+    .layer-box { border-left:3px solid #e8392d; padding:10px 16px; background:#f8f9fa; margin-bottom:10px; border-radius:0 6px 6px 0; }
+    .carry-box { border-left:3px solid #198754; padding:10px 16px; background:#f8f9fa; margin-bottom:8px; border-radius:0 6px 6px 0; font-family:'Courier New',monospace; font-size:.82rem; }
+  </style>
+</head>
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Hardi Sahrul A.J</h1>
+    </a>
+    <div class="social-links text-center">
+      <a href="http://linkedin.com/in/hardisahrulaj" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="current">Katalon Petstore API Automation</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <!-- Slider -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {"loop":true,"speed":600,"autoplay":{"delay":5000},"slidesPerView":"auto","pagination":{"el":".swiper-pagination","type":"bullets","clickable":true}}
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><img src="assets/img/katalon-petstore/1.svg" alt="Katalon Petstore Architecture"></div>
+                <div class="swiper-slide"><img src="assets/img/katalon-petstore/2.svg" alt="Scenario Coverage"></div>
+                <div class="swiper-slide"><img src="assets/img/katalon-petstore/3.svg" alt="Extent Report Dashboard"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Info sidebar -->
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Tester</strong>: Hardi Sahrul A.J</li>
+                <li><strong>Type</strong>: API Automation — Layered Architecture</li>
+                <li><strong>Tool</strong>: Katalon Studio 9.x + Groovy</li>
+                <li><strong>Target</strong>: <a href="https://petstore.swagger.io/v2" target="_blank">petstore.swagger.io/v2</a></li>
+                <li><strong>Scenarios</strong>: 20 (Pet + Store + User)</li>
+                <li><strong>Report</strong>: Extent HTML (4 laporan)</li>
+                <li><strong>OS</strong>: Windows 11 (x64)</li>
+                <li><strong>Repository</strong>: <a href="https://github.com/hardisahrulaj/petstore-katalon" target="_blank"><i class="bi bi-github"></i> petstore-katalon</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-info mt-3" data-aos="fade-up" data-aos-delay="250">
+              <h3>Tech Stack</h3>
+              <div class="pt-1">
+                <span class="tech-badge">Katalon Studio</span>
+                <span class="tech-badge">Groovy</span>
+                <span class="tech-badge">REST API</span>
+                <span class="tech-badge">Extent Report</span>
+                <span class="tech-badge">Data Driven</span>
+                <span class="tech-badge">Carry-Over State</span>
+                <span class="tech-badge">Layered Arch</span>
+                <span class="tech-badge">E2E Testing</span>
+              </div>
+            </div>
+            <div class="portfolio-info mt-3" data-aos="fade-up" data-aos-delay="270">
+              <h3>Sample Reports</h3>
+              <ul class="list-unstyled mb-0" style="font-size:.85rem;">
+                <li><a href="https://github.com/hardisahrulaj/petstore-katalon/blob/main/sample-reports/Automation_Report_PET.html" target="_blank"><i class="bi bi-file-earmark-bar-graph me-1 text-danger"></i>Report PET</a></li>
+                <li><a href="https://github.com/hardisahrulaj/petstore-katalon/blob/main/sample-reports/Automation_Report_STORE.html" target="_blank"><i class="bi bi-file-earmark-bar-graph me-1 text-danger"></i>Report STORE</a></li>
+                <li><a href="https://github.com/hardisahrulaj/petstore-katalon/blob/main/sample-reports/Automation_Report_USER.html" target="_blank"><i class="bi bi-file-earmark-bar-graph me-1 text-danger"></i>Report USER</a></li>
+                <li><a href="https://github.com/hardisahrulaj/petstore-katalon/blob/main/sample-reports/Automation_Report_PET-10_E2E.html" target="_blank"><i class="bi bi-file-earmark-bar-graph me-1 text-danger"></i>Report E2E PET-10</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Full description -->
+        <div class="row mt-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-12">
+            <div class="portfolio-description">
+
+              <h2>Katalon Studio — Petstore API Automation (Layered Architecture)</h2>
+              <p>Proyek API automation testing untuk <a href="https://petstore.swagger.io/v2" target="_blank">petstore.swagger.io/v2</a> menggunakan <strong>Katalon Studio + Groovy</strong> dengan arsitektur berlapis (Layered Architecture): Test Suite → Scenario → Step → Helper. Mencakup 20 skenario untuk 3 service (Pet, Store, User) dengan dua mode eksekusi: per-service dan End-to-End (PET-10).</p>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-layers me-2"></i>Arsitektur Berlapis (Layered Architecture)</h4>
+              <p>Keunggulan utama project ini adalah pemisahan tanggung jawab yang jelas antar layer:</p>
+
+              <div class="layer-box">
+                <strong>Layer 1 — Test Suite</strong><br>
+                <code>Local Test Suite.ts</code> — Entry point. Description diisi <code>PET-10,sit</code> / <code>pet,sit</code> / <code>store,sit</code> / <code>user,sit</code> untuk menentukan mode eksekusi.
+              </div>
+              <div class="layer-box">
+                <strong>Layer 2 — Scenarios</strong> (<code>Test Cases/Scenarios/</code>)<br>
+                Test case level bisnis. Setiap scenario memanggil <code>executePreTest</code>, <code>executeMainTest</code>, <code>executePostTest</code>. Contoh: <em>add new pet with status available</em>, <em>TC010-Pet-Full-Lifecycle-Flow</em>.
+              </div>
+              <div class="layer-box">
+                <strong>Layer 3 — Steps</strong> (<code>Test Cases/Steps/Service/</code>)<br>
+                Test case level teknis/API. Setiap step memanggil satu operasi API spesifik: <code>pet/pet</code>, <code>pet/find-by-status</code>, <code>store/store</code>, <code>store/inventory</code>, <code>user/user</code>, <code>user/login</code>, dll.
+              </div>
+              <div class="layer-box">
+                <strong>Layer 4 — Helpers</strong> (<code>Include/scripts/groovy/</code>)<br>
+                <code>ApiHelper.groovy</code> — kirim HTTP request, log request/response<br>
+                <code>Context.groovy</code> — state global (baseUrl, carryOver, datatest)<br>
+                <code>ExtentReport.groovy</code> — generate HTML report<br>
+                <code>Validate.groovy</code> — assertion: assertEqual, assertNotNull<br>
+                <code>Logger.groovy</code> — log INFO/PASS/FAIL/ERROR
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-arrow-repeat me-2"></i>Carry-Over State</h4>
+              <p>Data yang dihasilkan satu step dipakai step berikutnya via <code>Context.carryOver</code>, di-reset setiap <code>AfterTestCase</code>:</p>
+              <div class="carry-box">
+                add new pet &nbsp;&nbsp;&nbsp;→ Context.putCarryOver(["petId": "12345"])<br>
+                get pet by id &nbsp;&nbsp;→ Context.getCarryOver("petId") // "12345"<br>
+                update pet &nbsp;&nbsp;&nbsp;&nbsp;→ Context.getCarryOver("petId") // "12345"<br>
+                delete pet &nbsp;&nbsp;&nbsp;&nbsp;→ Context.getCarryOver("petId") // "12345"<br>
+                <br>
+                place order &nbsp;&nbsp;&nbsp;→ Context.putCarryOver(["orderId": "67890"])<br>
+                get order by id → Context.getCarryOver("orderId") // "67890"<br>
+                <br>
+                create user &nbsp;&nbsp;&nbsp;→ Context.putCarryOver(["username": "john_doe"])<br>
+                get user &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Context.getCarryOver("username") // "john_doe"
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-cpu me-2"></i>Requirements</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Komponen</th><th>Versi</th></tr></thead>
+                  <tbody>
+                    <tr><td>Katalon Studio</td><td>9.x atau lebih baru</td></tr>
+                    <tr><td>Java</td><td>11+ (sudah bundled di Katalon)</td></tr>
+                    <tr><td>Koneksi internet</td><td>Untuk hit petstore.swagger.io</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-folder2-open me-2"></i>Project Structure</h4>
+              <div class="repo-tree">
+                <span class="f">petstore-katalon/</span><br>
+                <span class="k">├── </span><span class="f">Test Suites/</span><br>
+                <span class="k">│   └── </span>Local Test Suite.ts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← entry point eksekusi</span><br>
+                <span class="k">├── </span><span class="f">Test Cases/</span><br>
+                <span class="k">│   ├── </span><span class="f">Scenarios/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← level bisnis</span><br>
+                <span class="k">│   │   ├── </span>Pet/ (9 scenarios)<br>
+                <span class="k">│   │   ├── </span>Store/ (5 scenarios)<br>
+                <span class="k">│   │   └── </span>User/ (6 scenarios)<br>
+                <span class="k">│   └── </span><span class="f">Steps/Service/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← level teknis/API</span><br>
+                <span class="k">├── </span><span class="f">Data Files/</span><br>
+                <span class="k">│   ├── </span><span class="f">Service/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← run per service</span><br>
+                <span class="k">│   │   ├── </span>pet.dat · store.dat · user.dat<br>
+                <span class="k">│   └── </span><span class="f">TestId/SIT/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← run E2E</span><br>
+                <span class="k">│       └── </span>PET-10.dat<br>
+                <span class="k">├── </span><span class="f">Include/scripts/groovy/</span><br>
+                <span class="k">│   ├── </span>api/ApiHelper.groovy<br>
+                <span class="k">│   ├── </span>utility/Context.groovy · Logger.groovy · Validate.groovy<br>
+                <span class="k">│   └── </span>report/ExtentReport.groovy<br>
+                <span class="k">├── </span><span class="f">Test Listeners/</span><br>
+                <span class="k">│   └── </span>TestListener.groovy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← lifecycle hooks</span><br>
+                <span class="k">└── </span><span class="f">sample-reports/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← 4 contoh laporan HTML</span>
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-table me-2"></i>Daftar Scenario (20 Total)</h4>
+
+              <p class="mb-1"><strong>🐾 Pet API (9 scenarios)</strong></p>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Scenario</th><th>Pre Test</th><th>Main Test</th><th>Post Test</th></tr></thead>
+                  <tbody>
+                    <tr><td>add new pet with status available</td><td>—</td><td>add new pet</td><td>get pet by id</td></tr>
+                    <tr><td>add new pet with status pending</td><td>—</td><td>add new pet</td><td>get pet by id</td></tr>
+                    <tr><td>add new pet with status sold</td><td>—</td><td>add new pet</td><td>get pet by id</td></tr>
+                    <tr><td>get pet by id</td><td>add new pet</td><td>get pet by id</td><td>—</td></tr>
+                    <tr><td>update pet name and status</td><td>add new pet</td><td>update pet</td><td>verify pet updated</td></tr>
+                    <tr><td>delete pet</td><td>—</td><td>delete pet</td><td>—</td></tr>
+                    <tr><td>get pet not found</td><td>—</td><td>get pet not found (404)</td><td>—</td></tr>
+                    <tr><td>find pets by status available</td><td>—</td><td>find by status</td><td>—</td></tr>
+                    <tr><td>TC010-Pet-Full-Lifecycle-Flow</td><td>add new pet</td><td>get → update → delete</td><td>verify pet deleted</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <p class="mb-1 mt-3"><strong>🏪 Store API (5 scenarios)</strong></p>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Scenario</th><th>Pre Test</th><th>Main Test</th><th>Post Test</th></tr></thead>
+                  <tbody>
+                    <tr><td>place order for pet</td><td>add new pet</td><td>place order</td><td>get order by id</td></tr>
+                    <tr><td>get order by id</td><td>add new pet + place order</td><td>get order by id</td><td>—</td></tr>
+                    <tr><td>get order not found</td><td>—</td><td>get order not found (404)</td><td>—</td></tr>
+                    <tr><td>get store inventory</td><td>—</td><td>get inventory</td><td>—</td></tr>
+                    <tr><td>delete order</td><td>add new pet + place order</td><td>delete order</td><td>verify order deleted</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <p class="mb-1 mt-3"><strong>👤 User API (6 scenarios)</strong></p>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Scenario</th><th>Pre Test</th><th>Main Test</th><th>Post Test</th></tr></thead>
+                  <tbody>
+                    <tr><td>create new user</td><td>—</td><td>create user</td><td>get user by username</td></tr>
+                    <tr><td>get user by username</td><td>create user</td><td>get user by username</td><td>—</td></tr>
+                    <tr><td>get user not found</td><td>—</td><td>get user not found (404)</td><td>—</td></tr>
+                    <tr><td>user login and logout</td><td>create user</td><td>login + logout</td><td>—</td></tr>
+                    <tr><td>update user</td><td>create user</td><td>update user</td><td>—</td></tr>
+                    <tr><td>delete user</td><td>create user</td><td>delete user</td><td>verify user deleted</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-play-circle me-2"></i>Dua Mode Eksekusi</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>Aspek</th><th>Mode 1 — Per Service</th><th>Mode 2 — End-to-End (PET-10)</th></tr></thead>
+                  <tbody>
+                    <tr><td>Scope</td><td>1 service saja</td><td>Semua service (Pet + Store + User)</td></tr>
+                    <tr><td>Description</td><td><code>pet,sit</code> / <code>store,sit</code> / <code>user,sit</code></td><td><code>PET-10,sit</code></td></tr>
+                    <tr><td>Data file</td><td><code>Service/pet.dat</code> dll</td><td><code>TestId/SIT/PET-10.dat</code></td></tr>
+                    <tr><td>Tujuan</td><td>Debug / isolasi / regression per endpoint</td><td>Regression menyeluruh / release validation</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-terminal me-2"></i>Cara Menjalankan</h4>
+              <ol>
+                <li>Clone repo: <div class="cmd-block">git clone https://github.com/hardisahrulaj/petstore-katalon.git</div></li>
+                <li>Buka <strong>Katalon Studio</strong> → <strong>File → Open Project</strong> → pilih folder <code>petstore-katalon</code></li>
+                <li>Buka <strong>Profiles → local</strong>, pastikan <code>baseUrl = https://petstore.swagger.io/v2</code></li>
+                <li>Buka <strong>Test Suites → Local Test Suite</strong> → tab <strong>Information</strong> → isi <strong>Description</strong>:<br>
+                  <code>pet,sit</code> (Pet saja) &nbsp;|&nbsp; <code>store,sit</code> (Store saja) &nbsp;|&nbsp; <code>PET-10,sit</code> (E2E semua)</li>
+                <li>Klik <strong>Run ▶</strong> — laporan HTML otomatis dibuat di <code>Reports/&lt;timestamp&gt;/Local Test Suite/</code></li>
+              </ol>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-file-earmark-bar-graph me-2"></i>Laporan (Extent Report)</h4>
+              <p>4 sample report tersedia di folder <code>sample-reports/</code>:</p>
+              <div class="table-responsive">
+                <table class="table table-bordered tc-table">
+                  <thead><tr><th>File</th><th>Keterangan</th></tr></thead>
+                  <tbody>
+                    <tr><td><code>Automation_Report_PET.html</code></td><td>Run per service — Pet API (9 scenarios)</td></tr>
+                    <tr><td><code>Automation_Report_STORE.html</code></td><td>Run per service — Store API (5 scenarios)</td></tr>
+                    <tr><td><code>Automation_Report_USER.html</code></td><td>Run per service — User API (6 scenarios)</td></tr>
+                    <tr><td><code>Automation_Report_PET-10_E2E.html</code></td><td><strong>End-to-End</strong> — seluruh Petstore (20 scenarios)</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="mt-4">
+                <a href="https://github.com/hardisahrulaj/petstore-katalon" target="_blank" class="btn btn-danger me-2">
+                  <i class="bi bi-github me-1"></i> View on GitHub
+                </a>
+                <a href="postman-petstore.html" class="btn btn-outline-warning me-2">
+                  <i class="bi bi-arrow-left me-1"></i> CASE02: Postman Petstore
+                </a>
+                <a href="katalon-ddt.html" class="btn btn-outline-danger me-2">
+                  <i class="bi bi-arrow-left me-1"></i> CASE01: Katalon DDT
+                </a>
+                <a href="index.html#portfolio" class="btn btn-outline-secondary">
+                  <i class="bi bi-grid me-1"></i> Back to Portfolio
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background"></footer>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

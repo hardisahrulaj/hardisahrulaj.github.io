@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Segoe UI',Arial,sans-serif">
+  <rect width="800" height="500" fill="#0d1117"/>
+  <rect x="0" y="0" width="800" height="52" fill="#e8392d" opacity="0.9"/>
+  <text x="400" y="30" text-anchor="middle" fill="white" font-size="17" font-weight="700">Scenario Coverage &amp; Carry-Over State Flow</text>
+  <text x="400" y="46" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10">20 Scenarios · Pet + Store + User · E2E PET-10</text>
+
+  <rect x="20" y="64" width="230" height="26" rx="5" fill="#1f6feb" opacity="0.4"/>
+  <text x="135" y="81" text-anchor="middle" fill="#79c0ff" font-size="13" font-weight="700">PET API (9)</text>
+
+  <rect x="20" y="94" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="108" fill="#7ee787" font-size="10">add new pet (available / pending / sold)</text>
+  <rect x="20" y="116" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="130" fill="#7ee787" font-size="10">get pet by id</text>
+  <rect x="20" y="138" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="152" fill="#7ee787" font-size="10">update pet name and status</text>
+  <rect x="20" y="160" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="174" fill="#7ee787" font-size="10">delete pet</text>
+  <rect x="20" y="182" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="196" fill="#f85149" font-size="10">get pet not found (404)</text>
+  <rect x="20" y="204" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="218" fill="#7ee787" font-size="10">find pets by status available</text>
+  <rect x="20" y="226" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="30" y="240" fill="#7ee787" font-size="10">TC010 Full Lifecycle Flow</text>
+
+  <rect x="285" y="64" width="230" height="26" rx="5" fill="#238636" opacity="0.4"/>
+  <text x="400" y="81" text-anchor="middle" fill="#7ee787" font-size="13" font-weight="700">STORE API (5)</text>
+
+  <rect x="285" y="94" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="295" y="108" fill="#7ee787" font-size="10">place order for pet</text>
+  <rect x="285" y="116" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="295" y="130" fill="#7ee787" font-size="10">get order by id</text>
+  <rect x="285" y="138" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="295" y="152" fill="#f85149" font-size="10">get order not found (404)</text>
+  <rect x="285" y="160" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="295" y="174" fill="#7ee787" font-size="10">get store inventory</text>
+  <rect x="285" y="182" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="295" y="196" fill="#7ee787" font-size="10">delete order</text>
+
+  <rect x="550" y="64" width="230" height="26" rx="5" fill="#6e40c9" opacity="0.4"/>
+  <text x="665" y="81" text-anchor="middle" fill="#d2a8ff" font-size="13" font-weight="700">USER API (6)</text>
+
+  <rect x="550" y="94" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="560" y="108" fill="#7ee787" font-size="10">create new user</text>
+  <rect x="550" y="116" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="560" y="130" fill="#7ee787" font-size="10">get user by username</text>
+  <rect x="550" y="138" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="560" y="152" fill="#f85149" font-size="10">get user not found (404)</text>
+  <rect x="550" y="160" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="560" y="174" fill="#7ee787" font-size="10">user login and logout</text>
+  <rect x="550" y="182" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="560" y="196" fill="#7ee787" font-size="10">update user</text>
+  <rect x="550" y="204" width="230" height="20" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="560" y="218" fill="#7ee787" font-size="10">delete user</text>
+
+  <rect x="20" y="268" width="760" height="24" rx="5" fill="#e8392d" opacity="0.18" stroke="#e8392d" stroke-width="1"/>
+  <text x="400" y="284" text-anchor="middle" fill="#ff7b72" font-size="12" font-weight="700">Carry-Over State — Context.carryOver</text>
+
+  <rect x="20" y="298" width="760" height="58" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="30" y="306" width="100" height="20" rx="4" fill="#1f6feb" opacity="0.4"/>
+  <text x="80" y="320" text-anchor="middle" fill="#79c0ff" font-size="9">add new pet</text>
+  <text x="138" y="320" fill="#e8392d" font-size="14">→</text>
+  <rect x="148" y="306" width="80" height="20" rx="4" fill="#1f6feb" opacity="0.3"/>
+  <text x="188" y="320" text-anchor="middle" fill="#79c0ff" font-size="9">petId saved</text>
+  <text x="236" y="320" fill="#e8392d" font-size="14">→</text>
+  <rect x="246" y="306" width="90" height="20" rx="4" fill="#1f6feb" opacity="0.3"/>
+  <text x="291" y="320" text-anchor="middle" fill="#79c0ff" font-size="9">get/update/delete</text>
+
+  <rect x="370" y="306" width="100" height="20" rx="4" fill="#238636" opacity="0.4"/>
+  <text x="420" y="320" text-anchor="middle" fill="#7ee787" font-size="9">place order</text>
+  <text x="478" y="320" fill="#e8392d" font-size="14">→</text>
+  <rect x="488" y="306" width="80" height="20" rx="4" fill="#238636" opacity="0.3"/>
+  <text x="528" y="320" text-anchor="middle" fill="#7ee787" font-size="9">orderId saved</text>
+  <text x="576" y="320" fill="#e8392d" font-size="14">→</text>
+  <rect x="586" y="306" width="80" height="20" rx="4" fill="#238636" opacity="0.3"/>
+  <text x="626" y="320" text-anchor="middle" fill="#7ee787" font-size="9">get/del order</text>
+
+  <rect x="30" y="330" width="100" height="20" rx="4" fill="#6e40c9" opacity="0.4"/>
+  <text x="80" y="344" text-anchor="middle" fill="#d2a8ff" font-size="9">create user</text>
+  <text x="138" y="344" fill="#e8392d" font-size="14">→</text>
+  <rect x="148" y="330" width="90" height="20" rx="4" fill="#6e40c9" opacity="0.3"/>
+  <text x="193" y="344" text-anchor="middle" fill="#d2a8ff" font-size="9">username saved</text>
+  <text x="246" y="344" fill="#e8392d" font-size="14">→</text>
+  <rect x="256" y="330" width="90" height="20" rx="4" fill="#6e40c9" opacity="0.3"/>
+  <text x="301" y="344" text-anchor="middle" fill="#d2a8ff" font-size="9">get/update/delete</text>
+  <text x="680" y="344" fill="#8b949e" font-size="9" text-anchor="middle">reset per AfterTestCase</text>
+
+  <rect x="20" y="372" width="370" height="50" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="205" y="390" text-anchor="middle" fill="#e8392d" font-size="11" font-weight="700">Mode 1 — Per Service</text>
+  <text x="205" y="406" text-anchor="middle" fill="#8b949e" font-size="10">pet,sit / store,sit / user,sit</text>
+  <text x="205" y="418" text-anchor="middle" fill="#8b949e" font-size="10">Data Files/Service/pet.dat · store.dat · user.dat</text>
+
+  <rect x="410" y="372" width="370" height="50" rx="6" fill="#161b22" stroke="#e8392d" stroke-width="1.5"/>
+  <text x="595" y="390" text-anchor="middle" fill="#e8392d" font-size="11" font-weight="700">Mode 2 — End-to-End (PET-10)</text>
+  <text x="595" y="406" text-anchor="middle" fill="#8b949e" font-size="10">PET-10,sit → semua service sekaligus</text>
+  <text x="595" y="418" text-anchor="middle" fill="#8b949e" font-size="10">Data Files/TestId/SIT/PET-10.dat</text>
+
+  <text x="400" y="490" text-anchor="middle" fill="#484f58" font-size="10">Failure Propagation: 1 scenario FAILED → semua berikutnya SKIPPED (by design)</text>
+</svg>

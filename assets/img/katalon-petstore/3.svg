@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'Segoe UI',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="52" fill="#e8392d" opacity="0.9"/>
+  <text x="400" y="30" text-anchor="middle" fill="white" font-size="17" font-weight="700">Extent Report Dashboard + Tech Stack</text>
+  <text x="400" y="46" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10">HTML Report otomatis · 4 laporan tersedia · sample-reports/</text>
+
+  <!-- Report Dashboard mockup -->
+  <rect x="20" y="64" width="480" height="280" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="20" y="64" width="480" height="32" rx="8" fill="#21262d"/>
+  <text x="40" y="85" fill="#8b949e" font-size="11">Automation_Report_PET-10_E2E.html</text>
+  <circle cx="460" cy="80" r="6" fill="#238636"/>
+  <circle cx="445" cy="80" r="6" fill="#e3b341"/>
+  <circle cx="430" cy="80" r="6" fill="#f85149"/>
+
+  <!-- Summary cards -->
+  <rect x="35" y="108" width="100" height="60" rx="6" fill="#238636" opacity="0.3" stroke="#238636" stroke-width="1"/>
+  <text x="85" y="132" text-anchor="middle" fill="#7ee787" font-size="22" font-weight="700">17</text>
+  <text x="85" y="152" text-anchor="middle" fill="#7ee787" font-size="10">PASSED</text>
+
+  <rect x="150" y="108" width="100" height="60" rx="6" fill="#f85149" opacity="0.3" stroke="#f85149" stroke-width="1"/>
+  <text x="200" y="132" text-anchor="middle" fill="#f85149" font-size="22" font-weight="700">3</text>
+  <text x="200" y="152" text-anchor="middle" fill="#f85149" font-size="10">NEGATIVE</text>
+
+  <rect x="265" y="108" width="100" height="60" rx="6" fill="#e3b341" opacity="0.3" stroke="#e3b341" stroke-width="1"/>
+  <text x="315" y="132" text-anchor="middle" fill="#e3b341" font-size="22" font-weight="700">20</text>
+  <text x="315" y="152" text-anchor="middle" fill="#e3b341" font-size="10">TOTAL</text>
+
+  <rect x="380" y="108" width="100" height="60" rx="6" fill="#1f6feb" opacity="0.3" stroke="#1f6feb" stroke-width="1"/>
+  <text x="430" y="132" text-anchor="middle" fill="#79c0ff" font-size="22" font-weight="700">4</text>
+  <text x="430" y="152" text-anchor="middle" fill="#79c0ff" font-size="10">REPORTS</text>
+
+  <!-- Log lines mockup -->
+  <text x="35" y="192" fill="#8b949e" font-size="10">Scenario Log</text>
+  <rect x="35" y="198" width="450" height="16" rx="3" fill="#0d1117"/>
+  <text x="42" y="210" fill="#7ee787" font-size="9">✓ PASS  add new pet with status available  [petId: 9182736]</text>
+  <rect x="35" y="216" width="450" height="16" rx="3" fill="#0d1117"/>
+  <text x="42" y="228" fill="#7ee787" font-size="9">✓ PASS  get pet by id  [GET /pet/9182736 → 200 OK]</text>
+  <rect x="35" y="234" width="450" height="16" rx="3" fill="#0d1117"/>
+  <text x="42" y="246" fill="#7ee787" font-size="9">✓ PASS  update pet name and status  [PUT /pet → 200 OK]</text>
+  <rect x="35" y="252" width="450" height="16" rx="3" fill="#0d1117"/>
+  <text x="42" y="264" fill="#f85149" font-size="9">✗ NEG   get pet not found  [GET /pet/9999999 → 404 Not Found]</text>
+  <rect x="35" y="270" width="450" height="16" rx="3" fill="#0d1117"/>
+  <text x="42" y="282" fill="#7ee787" font-size="9">✓ PASS  place order for pet  [POST /store/order → 200 OK]</text>
+  <rect x="35" y="288" width="450" height="16" rx="3" fill="#0d1117"/>
+  <text x="42" y="300" fill="#7ee787" font-size="9">✓ PASS  create new user  [POST /user → 200 OK]</text>
+  <rect x="35" y="306" width="450" height="16" rx="3" fill="#0d1117"/>
+  <text x="42" y="318" fill="#7ee787" font-size="9">✓ PASS  TC010 Full Lifecycle Flow  [add→get→update→delete]</text>
+
+  <!-- System info -->
+  <rect x="35" y="330" width="450" height="4" fill="#30363d" rx="2"/>
+  <text x="35" y="348" fill="#8b949e" font-size="9">System: Katalon Studio 9.x · Java 11+ · Windows 11 · petstore.swagger.io/v2</text>
+
+  <!-- Tech Stack panel -->
+  <rect x="520" y="64" width="260" height="280" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="650" y="90" text-anchor="middle" fill="#e8392d" font-size="13" font-weight="700">Tech Stack</text>
+
+  <!-- badges -->
+  <rect x="535" y="100" width="110" height="28" rx="14" fill="#e8392d" opacity="0.8"/>
+  <text x="590" y="119" text-anchor="middle" fill="white" font-size="11" font-weight="600">Katalon Studio</text>
+
+  <rect x="655" y="100" width="110" height="28" rx="14" fill="#1f6feb" opacity="0.8"/>
+  <text x="710" y="119" text-anchor="middle" fill="white" font-size="11" font-weight="600">Groovy</text>
+
+  <rect x="535" y="138" width="110" height="28" rx="14" fill="#238636" opacity="0.8"/>
+  <text x="590" y="157" text-anchor="middle" fill="white" font-size="11" font-weight="600">REST API</text>
+
+  <rect x="655" y="138" width="110" height="28" rx="14" fill="#6e40c9" opacity="0.8"/>
+  <text x="710" y="157" text-anchor="middle" fill="white" font-size="11" font-weight="600">Extent Report</text>
+
+  <rect x="535" y="176" width="110" height="28" rx="14" fill="#e3b341" opacity="0.8"/>
+  <text x="590" y="195" text-anchor="middle" fill="#0d1117" font-size="11" font-weight="600">Data Driven</text>
+
+  <rect x="655" y="176" width="110" height="28" rx="14" fill="#f0883e" opacity="0.8"/>
+  <text x="710" y="195" text-anchor="middle" fill="white" font-size="11" font-weight="600">Carry-Over</text>
+
+  <rect x="535" y="214" width="110" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="590" y="233" text-anchor="middle" fill="#c9d1d9" font-size="11">Layered Arch</text>
+
+  <rect x="655" y="214" width="110" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="710" y="233" text-anchor="middle" fill="#c9d1d9" font-size="11">Failure Propagation</text>
+
+  <rect x="535" y="252" width="110" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="590" y="271" text-anchor="middle" fill="#c9d1d9" font-size="11">E2E + Per Service</text>
+
+  <rect x="655" y="252" width="110" height="28" rx="14" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="710" y="271" text-anchor="middle" fill="#c9d1d9" font-size="11">Swagger Petstore</text>
+
+  <!-- Sample reports list -->
+  <rect x="20" y="358" width="760" height="120" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="400" y="378" text-anchor="middle" fill="#e8392d" font-size="12" font-weight="700">Sample Reports (sample-reports/)</text>
+
+  <rect x="35" y="386" width="170" height="36" rx="5" fill="#238636" opacity="0.2" stroke="#238636" stroke-width="1"/>
+  <text x="120" y="401" text-anchor="middle" fill="#7ee787" font-size="10" font-weight="600">Automation_Report_PET.html</text>
+  <text x="120" y="415" text-anchor="middle" fill="#8b949e" font-size="9">Pet API — 9 scenarios</text>
+
+  <rect x="220" y="386" width="170" height="36" rx="5" fill="#1f6feb" opacity="0.2" stroke="#1f6feb" stroke-width="1"/>
+  <text x="305" y="401" text-anchor="middle" fill="#79c0ff" font-size="10" font-weight="600">Automation_Report_STORE.html</text>
+  <text x="305" y="415" text-anchor="middle" fill="#8b949e" font-size="9">Store API — 5 scenarios</text>
+
+  <rect x="405" y="386" width="170" height="36" rx="5" fill="#6e40c9" opacity="0.2" stroke="#6e40c9" stroke-width="1"/>
+  <text x="490" y="401" text-anchor="middle" fill="#d2a8ff" font-size="10" font-weight="600">Automation_Report_USER.html</text>
+  <text x="490" y="415" text-anchor="middle" fill="#8b949e" font-size="9">User API — 6 scenarios</text>
+
+  <rect x="590" y="386" width="190" height="36" rx="5" fill="#e8392d" opacity="0.2" stroke="#e8392d" stroke-width="1.5"/>
+  <text x="685" y="401" text-anchor="middle" fill="#ff7b72" font-size="10" font-weight="700">Automation_Report_PET-10_E2E.html</text>
+  <text x="685" y="415" text-anchor="middle" fill="#8b949e" font-size="9">Full E2E — 20 scenarios</text>
+
+  <text x="400" y="460" text-anchor="middle" fill="#484f58" font-size="10">github.com/hardisahrulaj/petstore-katalon</text>
+</svg>
