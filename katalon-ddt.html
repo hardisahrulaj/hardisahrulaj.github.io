@@ -215,6 +215,38 @@
               <p><strong>Report XML (JUnit):</strong> File <code>JUnit_Report.xml</code> otomatis tersedia di:</p>
               <div class="repo-tree" style="font-size:.8rem;">Reports/YYYYMMDD_HHMMSS/StudentFormDDTSuite/YYYYMMDD_HHMMSS/JUnit_Report.xml</div>
 
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-terminal me-2"></i>Contoh Output Log saat Test Berjalan</h4>
+              <div class="repo-tree" style="font-size:.8rem; line-height:1.7;">
+                INFO &nbsp;- START Test Suites/StudentFormDDTSuite<br>
+                INFO &nbsp;- START Test Cases/TC_StudentForm_DDT<br>
+                INFO &nbsp;- Scenario = TC001_ValidSubmit<br>
+                INFO &nbsp;- ExpectedResult = PASS<br>
+                INFO &nbsp;- FirstName = Andi<br>
+                INFO &nbsp;- LastName = Pratama<br>
+                INFO &nbsp;- StudentEmail = andi.pratama@mail.com<br>
+                INFO &nbsp;- MobileNumber = 8123456788<br>
+                DEBUG - 1: openBrowser(&quot;&quot;)<br>
+                DEBUG - 2: navigateToUrl(&quot;https://demoqa.com/&quot;)<br>
+                ...<br>
+                <span style="color:#7ee787;">DEBUG - ✓ [TC001_ValidSubmit] Form berhasil disubmit — PASSED</span><br>
+                INFO &nbsp;- END Test Cases/TC_StudentForm_DDT
+              </div>
+
+              <hr class="section-divider">
+
+              <h4><i class="bi bi-folder2-open me-2"></i>Contoh Hasil Report (Sample)</h4>
+              <p>Contoh report hasil eksekusi tersedia di sidebar. Struktur output per run:</p>
+              <div class="repo-tree" style="font-size:.8rem; line-height:1.7;">
+                Reports/20260223_081517/StudentFormDDTSuite/20260223_081518/<br>
+                <span class="k">├── </span>20260223_081518.html&nbsp;&nbsp;&nbsp;<span class="c">← laporan HTML</span><br>
+                <span class="k">├── </span>20260223_081518.pdf&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← laporan PDF</span><br>
+                <span class="k">├── </span>20260223_081518.csv&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← data hasil per TC</span><br>
+                <span class="k">├── </span>JUnit_Report.xml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← format JUnit</span><br>
+                <span class="k">└── </span>*.png&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="c">← screenshot tiap TC</span>
+              </div>
+
               <div class="mt-4">
                 <a href="https://github.com/hardisahrulaj/TakehomeQA/tree/main/Automation-Katalon" target="_blank" class="btn btn-danger me-2">
                   <i class="bi bi-github me-1"></i> View on GitHub
